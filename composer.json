@@ -1,0 +1,26 @@
+{
+    "name": "codelines/laravel-media-controller",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^10.17",
+        "illuminate/database": "^10.17"
+    },
+    "authors": [
+        {
+            "name": "Teejay Tamani",
+            "email": "tjaytamani@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Codelines\\LaravelMediaController\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codelines\\LaravelMediaController\\MediaControllerServiceProvider"
+            ]
+        }
+    }
+}
